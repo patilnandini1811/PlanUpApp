@@ -1,46 +1,62 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PlanUp – Task Manager (React + TypeScript)
 
-## Available Scripts
+PlanUp is a simple and clean task manager built with React and TypeScript.
+It allows users to add, edit, and delete daily tasks in a minimal, user-friendly interface.
 
-In the project directory, you can run:
+✅ Features
 
-### `yarn start`
+✅ Add new tasks
+✅ Edit existing tasks
+✅ Delete tasks
+✅ Mark tasks as completed (if your app has this – remove if not)
+✅ Fully typed with TypeScript
+✅ Responsive, clean UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+🛠 Tech Stack
+Tool	Purpose
+React	UI library
+TypeScript	Type safety and better development experience
+React Hooks	State management (useState, useEffect)
+CSS / Tailwind / Styled Components	(Write whichever you used) for styling
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Example:
 
-### `yarn test`
+Styling: CSS Modules
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚀 Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/yourusername/planup.git
+cd planup
 
-### `yarn build`
+2️⃣ Install dependencies
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3️⃣ Run the app
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app will be available at:
 
-### `yarn eject`
+http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+📌 How it Works
+✅ Add a Task
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Type a task name into the input field and click Add
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Task appears in the list instantly
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+✏️ Edit a Task
 
-## Learn More
+Click the edit icon (✏️)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Update the text
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Save changes
+
+❌ Delete a Task
+
+Click the delete icon (🗑️)
+
+Task is removed from the list
